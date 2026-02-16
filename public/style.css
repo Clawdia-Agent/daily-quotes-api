@@ -1,0 +1,120 @@
+:root {
+  --bg: #0f0f1a;
+  --surface: #1a1a2e;
+  --accent: #e94560;
+  --text: #eaeaea;
+  --muted: #8888a0;
+  --radius: 16px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Georgia', serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 640px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+.quote-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 3rem 2.5rem;
+  margin-bottom: 2rem;
+  transition: opacity 0.3s;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: var(--text);
+}
+
+blockquote::before { content: '\201C'; color: var(--accent); font-size: 2rem; }
+blockquote::after { content: '\201D'; color: var(--accent); font-size: 2rem; }
+
+cite {
+  display: block;
+  font-size: 1rem;
+  color: var(--accent);
+  font-style: normal;
+}
+
+.category {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.2rem 0.75rem;
+  background: rgba(233, 69, 96, 0.15);
+  color: var(--accent);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: -apple-system, sans-serif;
+}
+
+.controls {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+button, select {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: -apple-system, sans-serif;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  transition: transform 0.1s;
+}
+
+button:active { transform: scale(0.96); }
+
+select {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid #2a2a4a;
+}
+
+.footer {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-family: -apple-system, sans-serif;
+}
+
+.footer a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--muted);
+}
+
+.footer a:hover { color: var(--accent); border-color: var(--accent); }
+
+@media (max-width: 480px) {
+  blockquote { font-size: 1.2rem; }
+  .quote-card { padding: 2rem 1.5rem; }
+}

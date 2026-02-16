@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Quote</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Quote</h1>
+    <div id="quote-card" class="quote-card">
+      <blockquote id="quote-text">Loading...</blockquote>
+      <cite id="quote-author"></cite>
+      <span class="category" id="quote-category"></span>
+    </div>
+    <div class="controls">
+      <button id="newQuoteBtn" onclick="fetchQuote()">New Quote</button>
+      <select id="categoryFilter" onchange="fetchQuote()">
+        <option value="">All Categories</option>
+        <option value="motivation">Motivation</option>
+        <option value="wisdom">Wisdom</option>
+        <option value="innovation">Innovation</option>
+        <option value="programming">Programming</option>
+        <option value="design">Design</option>
+        <option value="perseverance">Perseverance</option>
+      </select>
+    </div>
+    <p class="footer">
+      <a href="/api/quotes" target="_blank">API</a> ·
+      <a href="/api/quotes/random" target="_blank">Random JSON</a>
+    </p>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
