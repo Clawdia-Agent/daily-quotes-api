@@ -1,0 +1,17 @@
+{
+  "name": "daily-quotes-api",
+  "version": "1.0.0",
+  "description": "A lightweight REST API serving inspirational quotes with a minimal web frontend",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "quotes",
+    "api",
+    "rest"
+  ],
+  "license": "MIT"
+}
