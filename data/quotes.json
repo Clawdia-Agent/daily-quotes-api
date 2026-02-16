@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "motivation",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "text": "Innovation distinguishes between a leader and a follower.",
+    "author": "Steve Jobs",
+    "category": "innovation",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "text": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "category": "motivation",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "category": "wisdom",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "category": "perseverance",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "6",
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "motivation",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "7",
+    "text": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "category": "wisdom",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "8",
+    "text": "Simplicity is the ultimate sophistication.",
+    "author": "Leonardo da Vinci",
+    "category": "design",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "9",
+    "text": "The best way to predict the future is to create it.",
+    "author": "Peter Drucker",
+    "category": "innovation",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "10",
+    "text": "Code is like humor. When you have to explain it, it is bad.",
+    "author": "Cory House",
+    "category": "programming",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "11",
+    "text": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson",
+    "category": "programming",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "12",
+    "text": "Make it work, make it right, make it fast.",
+    "author": "Kent Beck",
+    "category": "programming",
+    "createdAt": "2026-01-01T00:00:00Z"
+  }
+]
